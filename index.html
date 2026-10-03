@@ -7,81 +7,609 @@
   <title>伊力扎提 | 中国人民大学</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="hero">
-    <nav class="nav container">
-      <a class="logo" href="#home">伊力扎提</a>
-      <div class="nav-links">
-        <a href="#about">关于我</a>
-        <a href="#research">研究方向</a>
-        <a href="#contact">联系我</a>
+
+<header class="hero" id="home">
+
+  <nav class="nav container">
+    <a class="logo" href="#home">伊力扎提</a>
+
+    <div class="nav-links">
+      <a href="#about">关于我</a>
+      <a href="#education">教育经历</a>
+      <a href="#research">研究</a>
+      <a href="#basketball">篮球</a>
+      <a href="#interests">兴趣</a>
+      <a href="#contact">联系我</a>
+    </div>
+  </nav>
+
+  <div class="hero-content container">
+
+    <div class="hero-text">
+
+      <p class="eyebrow">
+        STATISTICS · CAUSAL INFERENCE · DATA SCIENCE
+      </p>
+
+      <h1>
+        你好，我是
+        <span class="gradient-text">伊力扎提</span>。
+      </h1>
+
+      <p class="hero-en">
+        Welcome to my personal homepage.
+      </p>
+
+      <p class="subtitle">
+        中国人民大学 · 统计与大数据方向博士生
+      </p>
+
+      <p class="intro">
+        我的研究兴趣主要围绕统计推断、因果推断、高维统计与数据科学展开，
+        关注现代统计方法在真实数据和复杂科学问题中的应用。
+        这里也会记录我的项目、学习经历，以及篮球、潜水等生活内容。
+      </p>
+
+      <div class="tags">
+        <span>统计推断</span>
+        <span>因果推断</span>
+        <span>高维统计</span>
+        <span>Semi-supervised Learning</span>
       </div>
-    </nav>
 
-    <div id="home" class="hero-content container">
-  <div class="hero-text">
-    <p class="eyebrow">PERSONAL HOMEPAGE</p>
+      <div class="hero-buttons">
+        <a class="button primary" href="#research">查看研究</a>
+        <a class="button secondary" href="#about">了解更多</a>
+      </div>
 
-    <h1>你好，我是伊力扎提。</h1>
+    </div>
 
-    <p>Welcome to my personal homepage.</p>
+    <div class="photo-wrapper">
 
-    <p class="subtitle">中国人民大学 · 统计与大数据方向博士生</p>
+      <div class="photo-glow"></div>
 
-    <p class="intro">
-      我的研究兴趣主要围绕统计学、因果推断与数据科学展开。
-      这个网站用于记录我的研究、项目与学习内容。另外，也会记录我生活里面的内容，
-      比如篮球相关的内容以及视频等等。
-    </p>
+      <img
+        src="photo myself.jpg"
+        alt="伊力扎提"
+        class="profile-photo"
+      >
 
-    <a class="button" href="#about">了解更多</a>
+      <div class="photo-caption">
+        <span class="status-dot"></span>
+        PhD Student @ RUC
+      </div>
+
+    </div>
+
   </div>
 
-  <img src="photo myself.jpg" alt="伊力扎提" class="profile-photo">
-</div>
-  </header>
+</header>
 
-  <main>
-    <section id="about" class="section container">
+
+<main>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container">
+
+    <div class="section-heading">
       <p class="section-label">ABOUT</p>
       <h2>关于我</h2>
-      <p>
-        我是伊力扎提，目前在中国人民大学攻读统计与大数据相关方向博士学位。
-        我关注统计方法、数据分析以及这些方法在真实问题中的应用。
-      </p>
-    </section>
+    </div>
 
-    <section id="research" class="section section-muted">
-      <div class="container">
+    <div class="about-grid">
+
+      <div class="about-main">
+
+        <p>
+          我是伊力扎提，目前在中国人民大学攻读统计与大数据方向博士学位。
+          我的研究主要关注统计推断、因果推断、高维统计以及半监督学习，
+          并关注这些方法在真实数据问题中的应用。
+        </p>
+
+        <p>
+          在学术之外，运动一直是我生活的重要组成部分。
+          我长期参加篮球比赛，同时喜欢游泳和潜水。
+          我希望这个网站不仅记录研究，也记录自己正在做的事情和感兴趣的内容。
+        </p>
+
+      </div>
+
+      <div class="info-card">
+
+        <div class="info-item">
+          <span class="info-label">学校</span>
+          <span>中国人民大学</span>
+        </div>
+
+        <div class="info-item">
+          <span class="info-label">阶段</span>
+          <span>博士研究生</span>
+        </div>
+
+        <div class="info-item">
+          <span class="info-label">方向</span>
+          <span>统计与大数据</span>
+        </div>
+
+        <div class="info-item">
+          <span class="info-label">Research</span>
+          <span>Causal Inference</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-soft">
+
+    <div class="container">
+
+      <div class="section-heading">
+        <p class="section-label">EDUCATION</p>
+        <h2>教育经历</h2>
+        <p>
+          从数学训练到统计学研究，我的学习经历主要围绕数学、统计与数据科学展开。
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <p class="timeline-stage">Ph.D.</p>
+            <h3>中国人民大学</h3>
+            <p>统计与大数据方向 · 博士研究生</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <p class="timeline-stage">MASTER</p>
+            <h3>中国人民大学</h3>
+            <p>统计与大数据方向 · 硕士研究生</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <p class="timeline-stage">BACHELOR</p>
+            <h3>大连理工大学 · 数学学院</h3>
+            <p>华罗庚班</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <p class="timeline-stage">HIGH SCHOOL</p>
+            <h3>乌鲁木齐市第一中学</h3>
+            <p>新疆 · 乌鲁木齐</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- RESEARCH -->
+  <section id="research" class="section section-dark">
+
+    <div class="container">
+
+      <div class="section-heading light">
         <p class="section-label">RESEARCH</p>
         <h2>研究方向</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>统计学</h3>
-            <p>统计建模、统计推断与高维数据分析。</p>
-          </article>
-          <article class="card">
-            <h3>因果推断</h3>
-            <p>关注因果效应估计、中介分析及相关统计方法。</p>
-          </article>
-          <article class="card">
-            <h3>数据科学</h3>
-            <p>使用计算方法解决实际数据分析与研究问题。</p>
-          </article>
-        </div>
+
+        <p>
+          关注现代统计推断方法，以及高维、半监督和因果问题中的统计理论与方法。
+        </p>
       </div>
-    </section>
 
-    <section id="contact" class="section container">
-      <p class="section-label">CONTACT</p>
-      <h2>联系我</h2>
-      <p>这里之后可以放你的邮箱、GitHub、Google Scholar 或其他主页。</p>
-      <p class="placeholder">Email: your-email@example.com</p>
-    </section>
-  </main>
+      <div class="research-grid">
 
-  <footer>
-    <div class="container">© 2026 伊力扎提</div>
-  </footer>
+        <article class="research-card">
+          <div class="card-number">01</div>
+
+          <h3>因果推断</h3>
+
+          <p>
+            关注因果效应估计、中介分析、异质性处理效应及其统计推断问题。
+          </p>
+        </article>
+
+        <article class="research-card">
+          <div class="card-number">02</div>
+
+          <h3>高维统计</h3>
+
+          <p>
+            研究高维模型中的估计、正则化、变量选择与有效统计推断。
+          </p>
+        </article>
+
+        <article class="research-card">
+          <div class="card-number">03</div>
+
+          <h3>半监督学习</h3>
+
+          <p>
+            利用大量未标记数据提高统计估计与推断效率，
+            并研究其在因果推断中的应用。
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PUBLICATION -->
+  <section class="section container">
+
+    <div class="section-heading">
+      <p class="section-label">SELECTED WORK</p>
+      <h2>研究与论文</h2>
+    </div>
+
+    <article class="publication-card">
+
+      <div class="publication-side">
+
+        <span class="publication-year">
+          RESEARCH
+        </span>
+
+        <span class="publication-type">
+          Personal Research
+        </span>
+
+      </div>
+
+      <div class="publication-content">
+
+        <h3>
+          Semi-supervised inference for treatment heterogeneity
+        </h3>
+
+        <p>
+          围绕 treatment heterogeneity 的半监督统计推断问题，
+          研究如何结合标记数据与大量未标记数据提高估计和推断效率。
+        </p>
+
+        <div class="publication-tags">
+          <span>Semi-supervised Learning</span>
+          <span>Treatment Heterogeneity</span>
+          <span>Causal Inference</span>
+        </div>
+
+      </div>
+
+    </article>
+
+  </section>
+
+
+  <!-- PROJECT -->
+  <section class="section section-soft">
+
+    <div class="container">
+
+      <div class="section-heading">
+        <p class="section-label">PROJECTS</p>
+        <h2>项目经历</h2>
+      </div>
+
+      <div class="project-card">
+
+        <div class="project-side">
+          <span>RUC</span>
+          <strong>校级项目</strong>
+        </div>
+
+        <div class="project-content">
+
+          <p class="project-status">
+            PROJECT LEADER
+          </p>
+
+          <h3>求是学术项目</h3>
+
+          <p>
+            主持中国人民大学求是学术校级项目，
+            负责研究方案设计、项目推进以及相关研究工作。
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- BASKETBALL -->
+  <section id="basketball" class="section basketball-section">
+
+    <div class="container basketball-layout">
+
+      <div class="basketball-intro">
+
+        <p class="section-label basketball-label">
+          BASKETBALL
+        </p>
+
+        <h2>篮球</h2>
+
+        <p class="basketball-lead">
+          篮球一直是我生活中非常重要的一部分。
+          曾作为 CUBA 阳光组球队主力成员参加比赛，
+          并在多项篮球赛事中取得成绩。
+        </p>
+
+        <div class="basketball-quote">
+          <span class="basketball-ball">●</span>
+
+          <div>
+            <strong>More than a hobby.</strong>
+            <p>Competition · Teamwork · Persistence</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="achievement-list">
+
+        <div class="achievement">
+
+          <span class="achievement-rank">01</span>
+
+          <div>
+            <h3>大连市冠军</h3>
+            <p>高校篮球赛事经历</p>
+          </div>
+
+          <span class="achievement-result">
+            CHAMPION
+          </span>
+
+        </div>
+
+
+        <div class="achievement">
+
+          <span class="achievement-rank">02</span>
+
+          <div>
+            <h3>辽宁省亚军</h3>
+            <p>CUBA 阳光组赛事经历</p>
+          </div>
+
+          <span class="achievement-result">
+            RUNNER-UP
+          </span>
+
+        </div>
+
+
+        <div class="achievement">
+
+          <span class="achievement-rank">03</span>
+
+          <div>
+            <h3>北京三对三篮球赛 · 首钢杯亚军</h3>
+            <p>3×3 Basketball</p>
+          </div>
+
+          <span class="achievement-result">
+            RUNNER-UP
+          </span>
+
+        </div>
+
+
+        <div class="achievement">
+
+          <span class="achievement-rank">04</span>
+
+          <div>
+            <h3>中国人民大学三对三篮球赛冠军</h3>
+            <p>3×3 Basketball</p>
+          </div>
+
+          <span class="achievement-result">
+            CHAMPION
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- INTERESTS -->
+  <section id="interests" class="section container">
+
+    <div class="section-heading">
+
+      <p class="section-label">
+        BEYOND RESEARCH
+      </p>
+
+      <h2>研究之外</h2>
+
+      <p>
+        除统计学研究之外，我也喜欢运动、探索和记录生活。
+      </p>
+
+    </div>
+
+
+    <div class="interest-grid">
+
+      <article class="interest-card">
+
+        <div class="interest-symbol">
+          01
+        </div>
+
+        <p class="interest-en">
+          SCUBA DIVING
+        </p>
+
+        <h3>潜水</h3>
+
+        <p>
+          喜欢探索水下世界，目前已经完成
+          OW 和 AOW 潜水认证。
+        </p>
+
+        <div class="interest-tags">
+          <span>OW</span>
+          <span>AOW</span>
+        </div>
+
+      </article>
+
+
+      <article class="interest-card featured-interest">
+
+        <div class="interest-symbol">
+          02
+        </div>
+
+        <p class="interest-en">
+          BASKETBALL
+        </p>
+
+        <h3>篮球</h3>
+
+        <p>
+          从校园篮球到 CUBA 阳光组比赛，
+          篮球是我长期坚持并持续参与竞技的运动。
+        </p>
+
+        <div class="interest-tags">
+          <span>CUBA</span>
+          <span>3×3</span>
+          <span>Competition</span>
+        </div>
+
+      </article>
+
+
+      <article class="interest-card">
+
+        <div class="interest-symbol">
+          03
+        </div>
+
+        <p class="interest-en">
+          SWIMMING
+        </p>
+
+        <h3>游泳</h3>
+
+        <p>
+          游泳是我日常保持运动状态、
+          放松和恢复的重要方式之一。
+        </p>
+
+        <div class="interest-tags">
+          <span>Swimming</span>
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+
+    <div class="container">
+
+      <div class="contact-box">
+
+        <div>
+
+          <p class="section-label">
+            CONTACT
+          </p>
+
+          <h2>保持联系</h2>
+
+          <p>
+            如果你对我的研究、项目或其他内容感兴趣，可以通过以下方式找到我。
+          </p>
+
+        </div>
+
+
+        <div class="contact-links">
+
+          <a href="https://github.com/decade328522-hash" target="_blank">
+            GitHub
+          </a>
+
+          <a href="#">
+            Email
+          </a>
+
+          <a href="#">
+            Google Scholar
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <div class="container footer-content">
+
+    <span>
+      © 2026 伊力扎提
+    </span>
+
+    <span>
+      Statistics · Research · Basketball · Life
+    </span>
+
+  </div>
+
+</footer>
+
 </body>
 </html>
